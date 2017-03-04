@@ -1,6 +1,7 @@
 # OBS-Websokets-MIDI Bridge
 
 Console application to control OpenBroadcaster Studio via MIDI through websockets.
+Windows and Linux, no MacOS tested.
 Version 0.1
 
 ## Requirements
@@ -8,6 +9,7 @@ Version 0.1
 * tornado
 * mido
 * python-rtmidi
+* obs-websockets plugin for OBS
 
 ## Supported
 * Scene switching and state MIDI-feedback
