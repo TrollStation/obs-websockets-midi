@@ -19,13 +19,13 @@ Version 0.1
 * **dump_websockets_proto** *bool* dumps websockets messages to stdout
 * **dump_midi_proto** *bool* dumps MIDI messages to stdout
 * **log_level** *int* sets a logging level
-### Section **OBS_WebSockets**
+### Section **OBS_WebSockets**:
 * **host** *str* WebSocket server host to connect
 * **port** *int* WebSocket server port listen
 * **password** *str* WebSocket server password
 * **connect_timeout** *int* connection timeout in seconds
-* **request_timeout** *int* timeout per websockets request in secons
-### Section **MIDI_Settings**
+* **request_timeout** *int* timeout per websockets request in seconds 
+### Section **MIDI_Settings**:
 * **midi_backend** *str* sets MIDI backend module for *mido*
 * **input_port** *str* MIDI device name for receiving messages
 * **output_port** *str* MIDI device name for sending messages
