@@ -1,0 +1,456 @@
+{
+  "init":
+          [
+            {
+              "type": "control_change",
+              "channel": 0,
+              "control": 0,
+              "value": 40
+            }
+          ],
+  "reset":
+          [
+            {
+              "type": "control_change",
+              "channel": 0,
+              "control": 0,
+              "value": 0
+            }
+          ],
+  "record":
+          {
+            "inactive":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 105,
+                      "value": 15
+                    },
+            "active":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 105,
+                      "value": 60
+                    },
+            "pending":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 105,
+                      "value": 62
+                    },
+            "toggle":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 105,
+                      "value": 127
+                    }
+          },
+  "stream":
+          {
+            "inactive":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 104,
+                      "value": 15
+                    },
+            "active":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 104,
+                      "value": 60
+                    },
+            "pending":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 104,
+                      "value": 62
+                    },
+            "toggle":
+                    {
+                      "type": "control_change",
+                      "channel": 0,
+                      "control": 104,
+                      "value": 127
+                    }
+          },
+  "scenes":
+          [
+            {
+              "index": 0,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 8,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 1,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 24,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 2,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 40,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 3,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 56,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 4,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 72,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 5,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 88,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 6,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 104,
+                        "velocity": 127
+                      }
+            },
+            {
+              "index": 7,
+              "missing":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 12
+                      },
+              "inactive":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 78
+                      },
+              "active":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 60
+                      },
+              "transition":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 62
+                      },
+              "pending":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 58
+                      },
+              "switch":
+                      {
+                        "type": "note_on",
+                        "channel": 0,
+                        "note": 120,
+                        "velocity": 127
+                      }
+            }
+          ],
+  "sources":
+          [
+            {
+              "index": 0,
+              "scene_index": 0,
+              "missing": {},
+              "inactive": {},
+              "active": {},
+              "switch": {}
+            }
+          ]
+}
